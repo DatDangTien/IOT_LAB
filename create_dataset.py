@@ -26,6 +26,6 @@ for label in labels:
             print(f"{image_name} written ...")
             image_count += 1
     camera.release()
+    cv2.destroyAllWindows()
 
-cv2.destroyAllWindows()
 
